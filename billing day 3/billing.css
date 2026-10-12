@@ -1,0 +1,68 @@
+.list {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: black;
+
+    row-gap: 10px;
+    background-image: url("billl.jpg");
+
+
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    height: 500px;
+    width: 600px;
+    background-image: url("billl.jpg");
+    border-radius: 50px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("billl.jpg");
+    align-items: center;
+    
+}
+input {
+    height :30px;
+    width: 90px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+.products-list{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    padding: 20px 125px;
+    font-weight: 700;
+    color: black;
+    background-image: url("billl.jpg");
+    border-radius: 50px;
+}
+.bill {
+    color: antiquewhite;
+    background-color: black;
+    font-style: bold;
+    border-radius: 60px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.bill:hover {
+    background-color: rgb(14, 171, 45);
+}
+body{
+    background-color: antiquewhite;
+
+    
+}

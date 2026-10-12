@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div class="header">
+        <div class="port">POR<span style = "color:rgb(186, 8, 8)">TFO</span>LIO</div>
+        <div class="nav" style="color: black;">
+            <div class = "item item1"><a href="page1.html">Home</a></div>
+            <div class = "item item2"><a href="page2.html">About</a></div>
+            <div class = "item item3"><a href="page3.html">Projects</a></div>
+            <div class = "item item4"><a href="page4.html">Contact</a></div>
+        </div>
+    </div>
+</head>
+<body>
+    <section class="container">
+        <div class="imge">
+            <img src="my photo.jpeg" alt="Image" class="image">
+            <div class="text">
+                <h1>Hi, I'm <span style = "color:rgb(186, 8, 8)">Harshini Priya</span></h1><br><br>
+                <h3>ABOUT ME</h3><br>
+                <div class="about-content">
+                <p >Hi, I'm Harshini Priya R, an artist based in India specializing in vibrant visual storytelling.Inspired by the beauty of daily life and emotions, I create work that explores deeply personal and cultural themes.Explore my portfolio, and feel free to reach out at harshinipriya@example.com for commissions or collaborations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skill-head">Artistic Skills</div>
+        <div class="skill-container">
+            <div class="skill skill1">
+                <div class="topic">Drawing</div>
+                <div class="bar">I do Drawing I do Drawing I do Drawing I do Drawing</div>
+            </div>
+            <div class="skill skill2">
+                <div class="topic">pencil Sketch</div>
+                <div class="bar">I do Drawing I do Drawing I do Drawing I do Drawing</div>
+            </div>
+            <div class="skill skill3">
+                <div class="topic">watercolor</div>
+                <div class="bar">I do Drawing I do Drawing I do Drawing I do Drawing</div>
+            </div>
+            <div class="skill skill4">
+                <div class="topic">Digital Art</div>
+                <div class="bar">I do Drawing I do Drawing I do Drawing I do Drawing</div>
+            </div>
+            <div class="skill skill5">
+                <div class="topic">Glass painting</div>
+                <div class="bar">I do Drawing I do Drawing I do Drawing I do Drawing</div>
+            </div>
+            <div class="skill skill6">
+                <div class="topic">Oil Painting</div>
+                <div class="bar">I do Drawing I do Drawing I do Drawing I do Drawing</div>
+            </div>
+        </div> 
+    </section>
+    <section>
+        <div class="BMI">
+            <h3>BMI CALCULATOR</h3>
+            <form class="calci">
+                <label>Enter Height:</label>
+                <input type="number" id="height"><br><br>
+                <label>Enter Weight:</label>
+                <input type="number" id="weight">
+            </form><br><br>
+            <button type="button" class="calculate" onclick="fun()"><b>Calculate</b></button>
+            <p id="ans"></p>
+        </div>
+        <script src="bmi.js"></script>
+    </section>
+    
+    <section>
+        <div class="form">
+            <h1 class="skill-head" style = "font-size: 30px;">FORM</h1><br><br>
+            <form class="2input">
+                <label id="name">Name:</label>
+                <input type="text" id="myname"><br><br>
+                <label id="age">Age:</label>
+                <input type="number" id="myage"><br><br>
+                <button type="button" class="view" onclick="view()">VIEW</button>
+                <p id="res"></p>
+            </form>
+            <script src="view.js"></script>
+
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="stu.css">
+</head>
+<body>
+    <section class="main-container">
+        <div class="heading"><h1>STUDENT DB MANAGEMENT</h1></div>
+        <div class="form-container">
+            <form class="form">
+                <label>NAME : </label>
+                <input id="name" type="text">
+                <label>AGE : </label>
+                <input id="age" type="number">
+                
+            </form>
+            <div class="buttons">
+            <button type="button" id="button-insert" onclick="ins()">INSERT</button>
+            <button type="button" id="button-delete" onclick="del()">DELETE</button>
+            <button type="button" id="button-view" onclick="view()">View</button>
+            </div>
+        </div>
+        <div class="output">
+            <div id="res-table">
+            </div>
+        </div>
+    </section>
+    <script src="stu.js"></script>
+</body>
+</html>
